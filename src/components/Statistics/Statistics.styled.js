@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Section = styled.section`
-    border-radius: 3px;
+    border-radius: 5px;
     margin-left: auto;
     margin-right: auto;
     width: 300px;
@@ -29,7 +29,7 @@ export const Item = styled.li`
     gap: 5px;
     flex-grow: 1;
     color: white;
-`
+`;
 
 
 
