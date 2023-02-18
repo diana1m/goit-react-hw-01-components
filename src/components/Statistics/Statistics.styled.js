@@ -7,10 +7,13 @@ export const Section = styled.section`
     width: 300px;
     background-color: #F1F6F9;
     box-shadow: 0px 0px 7px 0px black;
+    overflow: hidden;
 `;
 
 export const Title = styled.h2`
     text-align: center;
+    margin: 0;
+    padding: 20px 0;
 `;
 
 export const List = styled.ul`
