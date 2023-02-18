@@ -16,10 +16,7 @@ export const Circle =styled.span`
     display: inline-block; 
     background-color: #bbb;
     background-color: ${props => {
-        if (!props.isOnline) {
-        return 'red';
-        }
-    return 'green';
+       return props.isOnline ? 'green' : 'red';  
     }}
 `;
 
