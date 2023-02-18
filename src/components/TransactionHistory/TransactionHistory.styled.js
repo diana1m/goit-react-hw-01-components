@@ -1,12 +1,14 @@
 import styled from 'styled-components';
 
 export const Table = styled.table`
+    border-radius: 5px;
     margin-left: auto;
     margin-right: auto;
     width: 300px;
     background-color: #F1F6F9;
     box-shadow: 0px 0px 7px 0px black;
     border-spacing: 1px;
+    overflow: hidden;
 `;
 
 export const TablesHead = styled.thead`
@@ -14,6 +16,7 @@ export const TablesHead = styled.thead`
     color: white;
     border: 1px solid #F4FAFA;
     font-size: 12px;
+    border-radius: 5px;
 `;
 
 export const TableBody = styled.tbody`
