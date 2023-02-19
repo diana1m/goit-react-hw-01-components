@@ -4,7 +4,9 @@ import { Section, Title, List, Item } from "./Statistics.styled";
 export const Statistics = ({title, stats})=>{
     return(
         <Section>
-            <Title>{title}</Title>
+            { title && (
+                <Title>{title}</Title>
+            )}
             <List>
                 {stats.map(item=>(
                     <Item key = {item.id} style={{backgroundColor: getRandomHexColor()}}>
